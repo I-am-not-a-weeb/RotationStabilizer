@@ -137,13 +137,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="helper_3dmath.h.cpp" />
-    <ClCompile Include="Quaternions.cpp" />
-    <ClCompile Include="RotationStabilizer.cpp" />
+    <ClCompile Include="src\helper_3dmath.h.cpp" />
+    <ClCompile Include="src\Quaternions.cpp" />
+    <ClCompile Include="src\RotationStabilizer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="helper_3dmath.h" />
-    <ClInclude Include="RotationStabilizer.h" />
+    <ClInclude Include="src\helper_3dmath.h" />
+    <ClInclude Include="src\RotationStabilizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

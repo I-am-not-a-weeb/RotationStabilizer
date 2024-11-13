@@ -15,22 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Quaternions.cpp">
+    <ClCompile Include="src\Quaternions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RotationStabilizer.cpp">
+    <ClCompile Include="src\RotationStabilizer.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="helper_3dmath.h.cpp">
+    <ClCompile Include="src\helper_3dmath.h.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="helper_3dmath.h">
+    <ClInclude Include="src\helper_3dmath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RotationStabilizer.h">
+    <ClInclude Include="src\RotationStabilizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
